@@ -12,5 +12,6 @@
         canShoot="false"
 		rangemodifier="1.5"
 		trinket="135"
+		modcostume="1"
 	/>
 </players>
