@@ -1,11 +1,21 @@
 --Mod Registration
-local mod = RegisterMod("Six Character Mod", 1)
+local mod = RegisterMod("Residents of the Nowhere", 1)
 local game = Game()
 local sfx = SFXManager()
 local seeds = game:GetSeeds()
 local startSeed = seeds:GetStartSeed()
 local rng = RNG()
+local head = Isaac.GetCostumeIdByPath("gfx/characters/character_six_head.anm2")
 SIXCHARACTERMOD = true
+
+--Character setup stuff
+mod:AddCallback (ModCallbacks.MC_POST_PLAYER_INIT, function(_, player)
+    if player:GetPlayerType() == Isaac.GetPlayerTypeByName("Six", false) then
+        player:AddNullCostume (head)
+        player:SetPocketActiveItem(Isaac.GetItemIdByName("How to Jump"))
+    end
+end)
+
 
 --Library of Isaac
 local LoI = "library_of_isaac"

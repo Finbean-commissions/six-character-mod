@@ -1,0 +1,7 @@
+<costumes anm2root="gfx/characters/">
+	<costume anm2path="character_six_head.anm2" type="none"/>
+</costumes>
+
+<!--
+see (https://wofsauge.github.io/IsaacDocs/rep/xml/costumes2/) for more info on the tags :)
+!-->

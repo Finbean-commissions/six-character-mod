@@ -1,8 +1,8 @@
 <players root="gfx/characters/costumes/" portraitroot="gfx/ui/stage/" nameimageroot="gfx/ui/boss/"> 
 	<player 
 		name="Six"
-		skin="six.png" modcostume="1" costumeSuffix="six"
-		nameimage="six_nameimage.png"  portrait="six_portrait.png"
+		skin="character_six.png" costumeSuffix="six"
+		nameimage="six_name.png"  portrait="playerportrait_six.png"
 		skinColor="-1"
 		birthright=""
 		achievement=""
@@ -11,5 +11,6 @@
 		redhearts="6"
         canShoot="false"
 		rangemodifier="1.5"
+		trinket="135"
 	/>
 </players>
