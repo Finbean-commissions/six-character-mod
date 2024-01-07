@@ -1,0 +1,9 @@
+<entities anm2root="gfx/" version="5" deathanm2="gfx/death enemies.anm2">
+	 <!-- Records -->
+	<entity anm2path="ui/radiusCircle.anm2"
+    baseHP="0" boss="0" champion="0" collisionDamage="0" collisionMass="10" collisionRadius="10" friction="1" numGridCollisionPoints="24" shadowSize="0" stageHP="0" shutdoors="false"
+    id="990" name="radiusCircleInnerHitbox" subtype="0" variant="0">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+        <preload-snd id="8"/>
+    </entity>
+</entities>

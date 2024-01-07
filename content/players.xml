@@ -1,0 +1,15 @@
+<players root="gfx/characters/costumes/" portraitroot="gfx/ui/stage/" nameimageroot="gfx/ui/boss/"> 
+	<player 
+		name="Six"
+		skin="six.png" modcostume="1" costumeSuffix="six"
+		nameimage="six_nameimage.png"  portrait="six_portrait.png"
+		skinColor="-1"
+		birthright=""
+		achievement=""
+
+		heartcontainers="6"
+		redhearts="6"
+        canShoot="false"
+		rangemodifier="1.5"
+	/>
+</players>
